@@ -16,7 +16,9 @@ jobs:
     uses: chef/github-workflows/.github/workflows/cookstyle-lint.yml@main
 
   integration:
-    needs: lint-unit
+    needs:
+      - yamllint
+      - cookstylelint
     runs-on: ubuntu-latest
     strategy:
       matrix:
