@@ -8,8 +8,6 @@ on:
       - main
 
 jobs:
-  markdownlint:
-    uses: chef/github-workflows/.github/workflows/markdown-lint.yml@main
   yamllint:
     uses: chef/github-workflows/.github/workflows/yaml-lint.yml@main
   cookstylelint:
