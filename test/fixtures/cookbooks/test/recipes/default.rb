@@ -4,7 +4,6 @@ chef_automatev2 'automatev2.chefstack.local' do
     [global.v1]
       fqdn = "chef-automate.example.com"
   EOS
-  version '4.12.69'
   products %w(automate)
   accept_license true
 end
