@@ -1,4 +1,4 @@
-# Cookbook to delete files sandbox.html
+# Cookbook to delete files sandbox.html for Chef Automate
 
 ## What is Polyfill Vulnerability
 
